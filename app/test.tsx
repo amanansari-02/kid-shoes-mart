@@ -1,12 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const HomePage = () => {
+export default function Test() {
   return (
     <View>
-      <Text>HomePage</Text>
+      <Text>Test</Text>
     </View>
   )
 }
-
-export default HomePage
