@@ -34,7 +34,7 @@ export default function App() {
             <View className="flex-row  items-center w-full px-4">
               {/* <Link> */}
               <TouchableOpacity
-                onPress={() => router.push("test")}
+                onPress={() => router.push("home")}
                 className="bg-black w-28 h-12 rounded-xl flex flex-row items-center justify-center"
               >
                 <MaterialIcon
