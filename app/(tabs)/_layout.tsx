@@ -27,7 +27,7 @@ export default function TabsLayout() {
         options={{
           tabBarLabel: "Cart",
           tabBarIcon: ({ color }) => (
-            <Icon name="cart" size={20} color={color} />
+            <Icon name="shopping-cart" size={20} color={color} />
           ),
         }}
       />

@@ -24,6 +24,11 @@ export default function Home() {
         <Icon name="search" size={18} color="gray" className="ml-2" />
         <TextInput placeholder="Search shoes..." className="flex-1 ml-2" />
       </View>
+
+      {/* Slider */}
+      <View className="flex-1 flex items-center justify-center" >
+        {/* <Slider /> */}
+      </View>
     </View>
   );
 }

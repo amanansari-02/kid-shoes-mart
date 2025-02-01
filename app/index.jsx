@@ -32,7 +32,6 @@ export default function App() {
           </View>
           <View className="flex-1 justify-end items-center mb-8 mx-2 ">
             <View className="flex-row  items-center w-full px-4">
-              {/* <Link> */}
               <TouchableOpacity
                 onPress={() => router.push("home")}
                 className="bg-black w-28 h-12 rounded-xl flex flex-row items-center justify-center"
@@ -53,7 +52,6 @@ export default function App() {
                   color="white"
                 />
               </TouchableOpacity>
-              {/* </Link> */}
               <Text className="text-black text-xl ml-6 font-semibold">
                 Let's Get Shopping
               </Text>
